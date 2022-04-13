@@ -34,7 +34,10 @@ header {
 }
 
 footer {
-    background: url(images/);
+    padding: 40px 30px;
+    font-size: .7em;
+    line-height: 1.5em;
+    background: #111;
 }
 
 /* IDs */
@@ -99,11 +102,39 @@ footer {
     padding: 30px 30px 0;
 }
 
+#colourband {
+    background: linear-gradient(90deg, rgba(38,24,86,1) 0%, rgba(0,133,202,1) 50%, rgba(133,192,124,1) 100%);
+    height: 10px;
+}
+
+#footerlinks ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#footerlinks a {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+#footerlinks a.active, #footerlinks a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#copyright {
+    padding-top: 20px;
+    color: #fff;
+}
+
 #ccclogo {
     width: 180px;
     position: absolute;
     right: 0;
-    padding: 50px 0 0;
+}
+
+#ccclogo img {
+    margin-top: -140px;
 }
 
 /* Classes */
@@ -206,7 +237,7 @@ footer {
     top: 0;
     left: 0;
     content: "";
-    background-color: rgb(133,192,124);
+    background-color: rgb(0,133,202);
     width: 4px;
     height: 100%;
 }
@@ -294,6 +325,14 @@ footer {
     #exhibitandsponsor div:nth-child(2) .links {
         position: absolute;
         bottom: 0;
+    }
+
+    #ccclogo {
+        width: 250px;
+    }
+
+    #ccclogo img {
+        margin-top: -210px;
     }
 
     .content {
