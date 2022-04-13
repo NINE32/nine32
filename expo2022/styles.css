@@ -129,17 +129,17 @@ header {
     line-height: 50px;
     cursor: pointer;
     transition: width .3s ease-in-out;
-    position: absolute;
+    position: fixed;
     right: 0;
 }
 
 .sidebar {
     backdrop-filter: blur(14px);
     background-color: #111;
-    position: absolute;
+    position: fixed;
     right: 0;
     width: 250px;
-    height: 100vh;
+    height: 100%;
     z-index: 1111;
     transition: transform .3s ease-in-out;
     transform: translateX(250px);
