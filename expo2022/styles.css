@@ -205,10 +205,17 @@ header {
 
 /* tablets - landscape */
 @media screen and (min-width: 800px) {
+    #hero img {
+        width: auto;
+    }
 }
 
 /* desktops*/
 @media screen and (min-width: 1025px) {
+    h1 {
+        padding: 15px 30px;
+    }
+
     #hero img {
         width: auto;
     }
@@ -222,7 +229,12 @@ header {
         padding: 0 20px;
     }
 
-    #info1 div, #exhibitandsponsor div {
+    #info1 div {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    #exhibitandsponsor div {
         width: 49%;
         display: inline-block;
     }
