@@ -78,6 +78,11 @@ header {
     background-size: cover;
     color: #fff;
     text-shadow: 0 0 10px #111;
+    overflow: hidden;
+}
+
+#innovsummit {
+    padding: 30px;
 }
 
 #exhibitandsponsor {
@@ -229,9 +234,15 @@ header {
         padding: 0 20px;
     }
 
+    #info1 {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
     #info1 div {
-        margin: 0 auto;
-        width: 50%;
+        width: 47%;
+        display: inline-block;
     }
 
     #exhibitandsponsor div {
@@ -239,7 +250,7 @@ header {
         display: inline-block;
     }
 
-    #exhibitandsponsor div:nth-child(2) {
+    #exhibitandsponsor div:nth-child(2), #info1 div:nth-child(2) {
         float: right;
     }
 }
