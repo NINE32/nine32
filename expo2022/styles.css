@@ -75,6 +75,7 @@ header {
 
 #info1 {
     background: url(images/info1-background.jpg) top center no-repeat;
+    background-size: cover;
     color: #fff;
     text-shadow: 0 0 10px #111;
 }
@@ -208,4 +209,25 @@ header {
 
 /* desktops*/
 @media screen and (min-width: 1025px) {
+    #hero img {
+        width: auto;
+    }
+
+    #keypoints div {
+        width: 31%;
+        display: inline-block;
+    }
+
+    #keypoints div:nth-child(2) {
+        padding: 0 20px;
+    }
+
+    #info1 div, #exhibitandsponsor div {
+        width: 49%;
+        display: inline-block;
+    }
+
+    #exhibitandsponsor div:nth-child(2) {
+        float: right;
+    }
 }
