@@ -30,7 +30,6 @@ a {
 body {
     margin: 0;
     background-color: var(--background-color);
-    /*background: radial-gradient(at -500% 500%, var(--signature-color), black);*/
 }
 
 header {
