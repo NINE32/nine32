@@ -11,10 +11,10 @@ html {
 
 html {
     scroll-behavior: smooth;
+    font-family: Consolas,monospace;
 }
 
 h2 {
-    font-family: Consolas;
     font-weight: normal;
     font-size: 2em;
     background: -webkit-linear-gradient(300deg, var(--signature-color), #7802ff);
@@ -50,7 +50,6 @@ main {
 footer {
     position: relative;
     display: inline-block;
-    font-family: consolas;
     font-size: 0.9em;
     line-height: 2;
     color: #fff;
@@ -109,7 +108,6 @@ footer a svg:hover {
     padding: 35% 0 0 10%;
     display: block;
     max-width: 70%;
-    font-family: Consolas;
     color: #fff;
     margin-left: -8px;
     position: fixed;
@@ -125,7 +123,7 @@ footer a svg:hover {
 #projects, #about {
     background-color: #161b22;
     border-radius: 36px;
-    border: #0d1117 1px solid;
+    border: #273449 1px solid;
     margin: 0 3%;
     height: 1000px;
     position: relative;
