@@ -1,0 +1,53 @@
+/* Stylesheet for NINE32.com */
+
+/* Tags */
+html, body, header, #Banner {
+	height: 100%;
+}
+body {
+	font-size: 100%;
+	background: url(assets/images/header-background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+
+header a, #Body {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 20px;
+	display: block;
+}
+
+header a h1 {
+	max-width: 400px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+h1, h2, h3, h2 a {
+	margin: 0;
+	color: #616161;
+	font-family: 'Dosis', sans-serif;
+}
+/* ID */
+
+/* Classes */
+
+/* Additional media queries for larger displays */
+/* tablets - portrait */
+@media screen and (min-width: 600px) {
+
+}
+
+/* tablets - landscape */
+@media screen and (min-width: 800px) {
+
+}
+ 
+/* desktops*/
+@media screen and (min-width: 1025px) {
+
+}
