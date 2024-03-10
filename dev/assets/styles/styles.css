@@ -39,6 +39,7 @@ header {
     width: 100%;
     border-top: var(--signature-color) 1px solid;
     z-index: 999;
+    background-image: linear-gradient(to top, rgba(11,12,17,0), rgba(11,12,17,.8), rgba(11,12,17,1));
 }
 
 main {
