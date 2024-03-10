@@ -190,6 +190,7 @@ footer a svg:hover {
     font-size: 3em;
     margin: 20px 0 0 10px;
     padding-left: 18px;
+    padding-bottom: 20px;
     display: block;
     background: -webkit-linear-gradient(300deg, var(--signature-color), #7802ff);
     -webkit-background-clip: text;
