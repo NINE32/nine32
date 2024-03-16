@@ -239,6 +239,7 @@ a.nav-link:hover {
 		margin-top: 0;		
 		height: 70px;
 		vertical-align: middle;
+		padding-right: 40px;
 	}
 
 	#nav-menu {
