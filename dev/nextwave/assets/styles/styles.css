@@ -3,7 +3,7 @@
 /* Tags */
 
 body {
-	font-family: 'Courier New', Courier, monospace;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1.25em;
 	line-height: 1.6em;
 }
@@ -257,6 +257,7 @@ a.nav-link:hover {
 		width: 50%;
 		bottom: 20%;
 		left: 3%;
+		rotate: 0deg;
 	}
 
 	#keypoints div {
