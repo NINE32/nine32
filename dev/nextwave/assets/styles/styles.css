@@ -38,6 +38,8 @@ h2 {
 	line-height: 1.1em;
 	padding-bottom: 18px;
 	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
 }
 
 header {
@@ -138,7 +140,7 @@ footer {
 }
 
 #exhibitandsponsor-wrapper h2, #exhibitandsponsor-wrapper p {
-	padding: 30px 30px 0;
+	padding: 30px 40px 0;
 }
 
 #colourband {
