@@ -1,0 +1,11 @@
+#Site settings
+title: NINE/32
+description: 
+url: https://nine32.com
+
+#Build Settings
+markdown: kramdown
+theme: 2024
+permalink: /blog/:title
+gems:
+  - jekyll-sitemap
