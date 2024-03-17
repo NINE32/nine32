@@ -249,6 +249,10 @@ h4 {
 
 @media screen and (min-width: 810px) {
 
+#greeting {
+max-width: 70%;
+}
+
     #projects {
         display: flex;
         flex-direction: row;
@@ -269,6 +273,9 @@ h4 {
     .scope {
         padding-bottom: 5%;
     }
+.project-end-links a {
+padding: 20px;
+}
 }
 
 @media screen and (min-width: 1200px) {
