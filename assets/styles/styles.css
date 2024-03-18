@@ -38,8 +38,6 @@ main {
 
 footer {
     text-align: center;
-    background: var(--primary-color);
-    color: var(--secondary-color);
     padding: 10% 0;
 }
 
@@ -85,24 +83,20 @@ h4 {
     font-size: 1.6rem;
     border-radius: 10px;
     padding: 14px 30px;
-    color: var(--primary-color);
-    background: var(--secondary-color);
+    color: var(--secondary-color);
+    background: var(--primary-color);
     box-shadow: 0 5px 10px #0b0c11b6;
 }
 
 #linkedin-logo {
-    fill: var(--primary-color);
+    fill: var(--secondary-color);
     display: inline-block;
     width: 20px;
 }
 
 #connect:hover {
-    box-shadow: 0 10px 17px #0b0c11b6;
+    background: var(--signature-color);
     transition: 0.4s;
-}
-
-#connect:hover #linkedin-logo {
-    fill: var(--signature-color);
 }
 
 #open-source-message {
@@ -233,6 +227,10 @@ h4 {
         font-size: 4rem;
     }
 
+    footer {
+        padding: 0 0 10%;
+    }
+
     #greeting {
         padding: 10% 0;
     }
@@ -241,7 +239,6 @@ h4 {
         font-size: 1.6rem;
     }
 
-    
     #projects section:not(:last-child) {
         padding-bottom: 10%;
     }
@@ -261,9 +258,9 @@ h4 {
 
 @media screen and (min-width: 810px) {
 
-#greeting {
-max-width: 70%;
-}
+    #greeting {
+        max-width: 70%;
+    }
 
     #projects {
         display: flex;
@@ -291,13 +288,18 @@ max-width: 70%;
 }
 
 @media screen and (min-width: 1200px) {
-    header, main, #footer-wrapper {
+    body {
         max-width: 1800px;
+        margin: 0 auto;
     }
 
     h2 {
         font-size: 3.6rem;
         padding: 7% 0 4%;
+    }
+
+    h4 {
+        padding: 4%;
     }
 
     main {
@@ -325,7 +327,7 @@ max-width: 70%;
     }
 
     #open-source-message {
-        padding: 10% 0 2%;
+        padding: 8% 0 2%;
     }
 
     .featured-project p {
