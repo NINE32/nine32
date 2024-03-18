@@ -291,9 +291,8 @@ max-width: 70%;
 }
 
 @media screen and (min-width: 1200px) {
-    body {
+    header, main, #footer-wrapper {
         max-width: 1800px;
-        margin: 0 auto;
     }
 
     h2 {
