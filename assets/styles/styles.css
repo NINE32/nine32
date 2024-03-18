@@ -148,7 +148,7 @@ h4 {
     transition: 0.4s ease-in;
 }
 
-.call-to-action, .view-project, .project-end-links a, project-end-links-no-website a {
+.call-to-action, .view-project, .project-end-links a, .project-end-links-no-website a {
     display: inline-block;
     width: 50%;
     text-align: center;
@@ -216,7 +216,7 @@ h4 {
     padding-top: 10%;
 }
 
-.project-end-links a, project-end-links-no-website a {
+.project-end-links a, .project-end-links-no-website a {
     width: 47%;
 }
 
@@ -285,7 +285,7 @@ max-width: 70%;
     .scope {
         padding-bottom: 5%;
     }
-    .project-end-links a, project-end-links-no-website a {
+    .project-end-links a, .project-end-links-no-website a {
         padding: 20px;
     }
 }
