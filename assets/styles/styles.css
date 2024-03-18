@@ -210,6 +210,12 @@ h4 {
     padding-top: 10%;
 }
 
+.project-end-links-no-website {
+    display: flex;
+    justify-content:flex-end;
+    padding-top: 10%;
+}
+
 .project-end-links a {
     width: 47%;
 }
@@ -334,5 +340,9 @@ max-width: 70%;
 
     .project-display {
         margin-top: -3%;
+    }
+
+    .project-end-links, .project-end-links-no-website {
+        padding-top: 5%;
     }
 }
