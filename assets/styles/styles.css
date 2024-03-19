@@ -100,7 +100,7 @@ h4 {
 }
 
 #open-source-message {
-    padding: 10% 0 3%;
+    padding: 20% 0 3%;
 }
 
 #open-source-message, #copyright {
@@ -298,6 +298,14 @@ h4 {
         padding: 7% 0 4%;
     }
 
+h3 {
+font-size: 3rem;
+}
+
+h4 {
+font-size: 6rem;
+}
+
     main {
         padding: 0 5% 15%;
     }
@@ -310,30 +318,31 @@ h4 {
         padding: 10% 0;
     }
 
-    #greeting p, .call-to-action, .view-project {
-        font-size: 2.4rem;
-    }
+    #greeting p, .call-to-action {
+font-size: 3.7rem;
+}
 
     #connect {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
+padding: 20px 55px;
     }
 
     #linkedin-logo {
-        width: 30px;
+        width: 40px;
     }
 
     #open-source-message {
-        padding: 8% 0 2%;
+        padding: 18% 0 2%;
         font-size: 1.3rem;
     }
 
     .featured-project p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
 
     .view-project {
         margin: 4% 0;
-        font-size: 1.6rem;
+        font-size: 2.4rem;
     }
 
     .project-display {
