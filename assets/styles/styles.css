@@ -297,14 +297,14 @@ h4 {
         font-size: 3.6rem;
         padding: 7% 0 4%;
     }
-
-h3 {
-font-size: 3rem;
-}
-
-h4 {
-font-size: 6rem;
-}
+    
+    h3 {
+        font-size: 3rem;
+    }
+    
+    h4 {
+        font-size: 6rem;
+    }
 
     main {
         padding: 0 5% 15%;
@@ -319,12 +319,12 @@ font-size: 6rem;
     }
 
     #greeting p, .call-to-action {
-font-size: 3.7rem;
-}
+        font-size: 3.7rem;
+    }
 
     #connect {
         font-size: 3.5rem;
-padding: 20px 55px;
+        padding: 20px 55px;
     }
 
     #linkedin-logo {
@@ -342,14 +342,22 @@ padding: 20px 55px;
 
     .view-project {
         margin: 4% 0;
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     .project-display {
         margin-top: -3%;
     }
 
+    .scope {
+        font-size: 2.1rem;
+    }
+
     .project-end-links, .project-end-links-no-website {
         padding-top: 5%;
+    }
+
+    .project-end-links a, .project-end-links-no-website a {
+        font-size: 2rem;
     }
 }
