@@ -123,7 +123,23 @@ footer {
 #keypoints {
 	background: #211951;
 	background: linear-gradient(35deg, #211951 0%, #836FFF 50%, #15F5BA 100%);
-	color: #fff;
+	padding: 5% 0;
+}
+
+#keypoints div {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+	color: #29394d;
+	padding: 2%;
+	margin: 2%;
+}
+
+
+#keypoints div:hover {
+	box-shadow: 0px 0px 30px #00000096;
 }
 
 #keypoints p {
@@ -139,8 +155,16 @@ footer {
 	padding: 0 0 30px 0;
 }
 
+#exhibitor, #sponsor {
+	margin: 2%;
+}
+
 #exhibitandsponsor-wrapper h2, #exhibitandsponsor-wrapper p {
 	padding: 30px 40px 0;
+}
+
+#exhibitandsponsor-wrapper img {
+	border-radius: 12px;
 }
 
 #colourband {
@@ -216,6 +240,16 @@ a.nav-link:hover {
 
 /* Additional media queries for larger displays */
 /* desktops*/
+@media screen and (min-width: 800px) {
+	#hero img {
+		width: 50%;
+		bottom: 20%;
+		left: 3%;
+		rotate: 0deg;
+	}
+}
+
+/* desktops*/
 @media screen and (min-width: 1025px) {
 	h1 {
 		padding: 15px 30px;
@@ -256,20 +290,13 @@ a.nav-link:hover {
 		transition: 0.3s;
 	}
 
-	#hero img {
-		width: 50%;
-		bottom: 20%;
-		left: 3%;
-		rotate: 0deg;
-	}
-
 	#keypoints div {
-		width: 31%;
+		width: 26%;
 		display: inline-block;
 	}
 
 	#keypoints div:nth-child(2) {
-		padding: 0 20px;
+		margin: 2% 0;
 	}
 
 	#info1 {
@@ -288,12 +315,21 @@ a.nav-link:hover {
 	}
 	
 	#exhibitandsponsor-wrapper {
-		display: table;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 
 	#exhibitandsponsor-wrapper div {
 		width: 50%;
-		display: table-cell;
+	}
+
+	#exhibitor {
+		margin: 2% 1% 2% 2%;
+	}
+
+	#sponsor {
+		margin: 2% 2% 2% 1%;
 	}
 
 	#footerlinks {
