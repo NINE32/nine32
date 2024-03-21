@@ -336,6 +336,10 @@ h4 {
         font-size: 1.3rem;
     }
 
+    .call-to-action {
+        width: 70%;
+    }
+
     .featured-project p {
         font-size: 1.8rem;
     }
