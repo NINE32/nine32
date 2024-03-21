@@ -142,10 +142,6 @@ footer {
 	box-shadow: 0px 0px 30px #00000096;
 }
 
-#keypoints p {
-	padding-bottom: 55px;
-}
-
 #gallery {
 	height: 100vh;
 	background: #02070d url("https://nine32.com/dev/nextwave/assets/images/show.jpg") no-repeat fixed center;
