@@ -235,7 +235,11 @@ h4 {
         padding: 10% 0;
     }
 
-    #greeting p, .call-to-action, .view-project {
+    #greeting p {
+font-size: 2rem;
+}
+
+.call-to-action, .view-project {
         font-size: 1.6rem;
     }
 
@@ -261,6 +265,11 @@ h4 {
     #greeting {
         max-width: 70%;
     }
+
+#greeting p {
+font-size: 2.3rem;
+}
+
 
     #projects {
         display: flex;
