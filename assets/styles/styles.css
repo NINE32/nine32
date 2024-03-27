@@ -318,8 +318,8 @@ h4 {
         padding: 10% 0;
     }
 
-    #greeting p, .call-to-action {
-        font-size: 2.4rem;
+    #greeting p {
+        font-size: 3.6rem;
     }
 
     #connect {
@@ -337,7 +337,8 @@ h4 {
     }
 
     .call-to-action {
-        width: 70%;
+        width: 45%;
+font-size: 2.2rem;
     }
 
     .featured-project p {
