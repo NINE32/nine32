@@ -236,10 +236,10 @@ h4 {
     }
 
     #greeting p {
-font-size: 2rem;
-}
+        font-size: 2rem;
+    }
 
-.call-to-action, .view-project {
+    .call-to-action, .view-project {
         font-size: 1.6rem;
     }
 
@@ -266,9 +266,9 @@ font-size: 2rem;
         max-width: 70%;
     }
 
-#greeting p {
-font-size: 2.3rem;
-}
+    #greeting p {
+        font-size: 2.3rem;
+    }
 
 
     #projects {
@@ -347,7 +347,7 @@ font-size: 2.3rem;
 
     .call-to-action {
         width: 45%;
-font-size: 2.2rem;
+        font-size: 2.2rem;
     }
 
     .featured-project p {
@@ -364,7 +364,7 @@ font-size: 2.2rem;
     }
 
     .scope {
-        font-size: 2.1rem;
+        font-size: 1.5rem;
     }
 
     .details {
