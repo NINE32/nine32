@@ -94,7 +94,7 @@ h4 {
     width: 20px;
 }
 
-#connect:hover, #connect:active {
+#connect:hover {
     background: var(--signature-color);
     transition: 0.4s;
 }
@@ -134,7 +134,7 @@ h4 {
     -webkit-text-fill-color: transparent;
 }
 
-.highlighted-text:hover, .highlighted-text:active {
+.highlighted-text:hover {
     background: var(--primary-color);
     text-shadow: 0 0 5px var(--primary-color);
     -webkit-background-clip: text;
