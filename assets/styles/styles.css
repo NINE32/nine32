@@ -94,7 +94,7 @@ h4 {
     width: 20px;
 }
 
-#connect:hover {
+#connect:hover, #connect:active {
     background: var(--signature-color);
     transition: 0.4s;
 }
