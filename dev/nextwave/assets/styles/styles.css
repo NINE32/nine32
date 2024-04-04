@@ -95,9 +95,8 @@ footer {
 
 #nav-menu li {
 	list-style: none;
-	background-color: #353535;
-	margin: 10px 5%;
-	border-radius: 15px;
+	border-bottom: 1px solid #836FFF;
+	margin: 10px 5%;
 }
 
 #nav-menu li:hover {
