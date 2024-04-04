@@ -134,7 +134,7 @@ h4 {
     -webkit-text-fill-color: transparent;
 }
 
-.highlighted-text:hover {
+.highlighted-text:hover, .highlighted-text:active {
     background: var(--primary-color);
     text-shadow: 0 0 5px var(--primary-color);
     -webkit-background-clip: text;
