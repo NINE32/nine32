@@ -27,7 +27,7 @@ nav {
 	top: 0;
 	right: 0;
 	display: block;
-	width: 100%;
+	width: 100%;
 	border-radius: 0 0 30px 30px;
 	box-shadow: 0 10px 50px #000;  
  backdrop-filter: blur(16px) saturate(180%);
@@ -96,7 +96,8 @@ footer {
 #nav-menu li {
 	list-style: none;
 	border-bottom: 1px solid #836FFF;
-	margin: 10px 5%;
+	margin: 10px 5%;
+
 }
 
 #nav-menu li:hover {
@@ -284,6 +285,7 @@ a.nav-link:hover {
 		padding: 0;
 		display: inline-block;
 		transition: 0.3s;
+		border-bottom: none;
 	}
 
 	#keypoints div {
