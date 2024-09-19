@@ -31,9 +31,8 @@ h1 {
 	height: 40px;
 }
 
-h1 svg {
+h1 img {
 	height: 28px;
-	fill: var(--primary-color);
 }
 
 nav {
