@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" />
+	<title>Peak Storage</title>
+	<link rel="icon" type="image/svg+xml" href="./assets/images/logo-p.svg">
+	<link rel="stylesheet" href="assets/styles/reset.css" type="text/css">
+	<link rel="stylesheet" href="assets/styles/styles.css" type="text/css">
+</head>
+<body>
+	<header>
+		<div id="header-container">
+			<div id="top-bar-container">
+				<div id="logo-container">
+					<span id="header-logo">
+						<a href="/" alt="Peak Storage"><img id="initial-logo" src="./assets/images/logo-p.svg" /><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							viewBox="0 0 831.9 124.2" id="text-logo" xml:space="preserve">
+					<g>
+						<path d="M0,122.9V1.3h19.2v121.7H0z M9.5,75.7V57.4H40c3.9,0,7-1.3,9.3-4c2.3-2.7,3.5-6.2,3.5-10.6v-8.2c0-4.6-1.1-8.3-3.4-11
+							c-2.3-2.7-5.4-4-9.4-4H9.5V1.3h30.3c6.7,0,12.6,1.3,17.4,3.9s8.6,6.3,11.3,11.2c2.7,4.9,4,10.6,4,17.3v10c0,6.6-1.3,12.3-4,17.1
+							c-2.7,4.8-6.5,8.5-11.4,11.1c-4.9,2.6-10.7,3.8-17.3,3.8H9.5z"/>
+						<path d="M89.1,122.9V1.3h19.2v121.7H89.1z M97.7,19.7V1.3h58v18.4H97.7z M97.7,71.6V53.4h51.3v18.2H97.7z M97.7,122.9v-18.4h58
+							v18.4H97.7z"/>
+						<path d="M163.9,122.9L201.1,1.3h14.6l37.2,121.7h-20.2l-24.3-89.4l-24.3,89.4H163.9z M184.2,100V81.9h49.3V100H184.2z"/>
+						<path d="M266.1,122.9V1.3h19.2v121.7H266.1z M279.9,101l0.3-30.9l39.5-68.9h22.7L279.9,101z M324.7,122.9l-29.5-64.5l14.6-12.5
+							l37.1,77H324.7z"/>
+						<path d="M383.7,124.2c-6.6,0-12.1-1-16.5-3.1c-4.4-2.1-7.7-5.3-9.9-9.5c-2.2-4.2-3.3-9.5-3.3-15.9v-6H366v6
+							c0,5.9,1.5,10.2,4.4,13.1c3,2.9,7.4,4.4,13.3,4.4c5.8,0,10.1-1.5,13-4.4c2.9-2.9,4.3-7.3,4.3-13.1v-7.2c0-4.3-1-7.8-2.9-10.6
+							c-2-2.8-4.5-5.2-7.6-7.2c-3.1-2-6.4-3.8-10-5.6c-3.2-1.6-6.3-3.2-9.4-4.9c-3.1-1.7-5.9-3.7-8.5-6c-2.6-2.3-4.6-5.1-6.2-8.3
+							c-1.5-3.3-2.3-7.2-2.3-11.8v-5.9c0-9.4,2.5-16.5,7.4-21.1c4.9-4.7,12.3-7,22.1-7c9.6,0,16.8,2.4,21.5,7.1
+							c4.7,4.7,7.1,11.9,7.1,21.3v6.4h-11.9v-6.4c0-5.8-1.4-10.2-4.1-13.1c-2.8-2.9-7-4.4-12.6-4.4c-5.9,0-10.3,1.4-13.2,4.1
+							c-2.9,2.8-4.4,6.9-4.4,12.4v5.9c0,4.3,1.1,7.8,3.4,10.5c2.3,2.7,5.2,5.1,8.8,7c3.6,1.9,7.3,3.8,11.1,5.7c3,1.5,5.8,3,8.6,4.8
+							c2.8,1.7,5.3,3.8,7.6,6.1c2.3,2.3,4,5.2,5.4,8.5c1.3,3.3,2,7.2,2,11.8v7.7c0,9.5-2.4,16.7-7.3,21.4
+							C400.8,121.8,393.5,124.2,383.7,124.2z"/>
+						<path d="M420.5,12.5V1.3h59.1v11.2H420.5z M444,122.9V11.2h12v111.7H444z"/>
+						<path d="M518.1,124.2c-6.4,0-11.8-1.2-16.3-3.6c-4.5-2.4-8-5.9-10.3-10.4c-2.4-4.5-3.6-10.1-3.6-16.6V30.6c0-6.5,1.2-12.1,3.6-16.6
+							c2.4-4.5,5.8-8,10.3-10.4c4.5-2.4,10-3.6,16.3-3.6c6.4,0,11.9,1.2,16.4,3.6C539,6,542.4,9.5,544.8,14c2.4,4.5,3.6,10.1,3.6,16.6
+							v62.9c0,6.5-1.2,12.1-3.6,16.6c-2.4,4.5-5.8,8-10.3,10.4C530,123,524.5,124.2,518.1,124.2z M518.1,112.4c5.8,0,10.3-1.6,13.4-4.8
+							c3.2-3.2,4.7-7.7,4.7-13.4V30c0-5.8-1.6-10.3-4.7-13.5c-3.2-3.2-7.6-4.8-13.4-4.8c-5.7,0-10.2,1.6-13.4,4.8S500,24.2,500,30v64.1
+							c0,5.7,1.6,10.2,4.8,13.4C507.9,110.8,512.4,112.4,518.1,112.4z"/>
+						<path d="M563.4,122.9V1.2h12v121.8H563.4z M570.8,71.5V60.2h22.5c5.5,0,9.7-1.5,12.8-4.5c3-3,4.6-7.3,4.6-12.7V30.5
+							c0-5.7-1.5-10.2-4.6-13.3c-3-3.2-7.3-4.7-12.8-4.7h-22.5V1.2h21.7c6.4,0,11.9,1.1,16.4,3.2c4.5,2.1,7.9,5.3,10.3,9.4
+							c2.4,4.1,3.6,9.1,3.6,15V43c0,6-1.2,11.2-3.6,15.4c-2.4,4.2-5.8,7.5-10.3,9.7c-4.5,2.2-9.9,3.3-16.4,3.3H570.8z M612.2,122.9
+							L596,67.7l10.7-3.8l19.4,59.1H612.2z"/>
+						<path d="M630.8,122.9L658.9,1.3h14.6l28.1,121.7h-13.4l-22-108.2l-22,108.2H630.8z M646.4,93.4V82.2h41.3v11.2H646.4z"/>
+						<path d="M735,57.4h29.6v35.5c0,6.6-1.1,12.3-3.4,16.9c-2.3,4.7-5.6,8.2-10,10.7c-4.4,2.5-9.6,3.7-15.8,3.7
+							c-6.3,0-11.7-1.2-16.1-3.5c-4.4-2.3-7.8-5.7-10.1-10c-2.3-4.4-3.5-9.7-3.5-15.9V31.2c0-6.6,1.1-12.3,3.4-16.9
+							c2.3-4.6,5.6-8.2,10-10.6c4.4-2.5,9.6-3.7,15.8-3.7c6.1,0,11.3,1.2,15.5,3.6c4.3,2.4,7.5,5.8,9.8,10.3c2.3,4.5,3.4,10,3.4,16.4v5.9
+							h-13.1v-5.9c0-6-1.4-10.6-4.1-13.8c-2.7-3.2-6.6-4.9-11.6-4.9c-5.4,0-9.6,1.7-12.6,5.1c-3,3.4-4.5,8.2-4.5,14.5v63.5
+							c0,5.6,1.5,10,4.6,13.1c3.1,3.1,7.4,4.7,13,4.7c5.5,0,9.7-1.7,12.7-5.1c3-3.4,4.5-8.1,4.5-14.3V68.6H735V57.4z"/>
+						<path d="M779.7,122.9V1.3h12v121.7H779.7z M788,12.5V1.3h43.9v11.2H788z M788,68.1V56.9h39.7v11.2H788z M788,122.9v-11.2h43.9v11.2
+							H788z"/>
+					</g>
+						</svg></a>
+					</span>
+				</div>
+					<span id="menu-icon-open" onclick="openNav()">&#9776;</span>
+					<nav id="menu">
+						<span id="menu-icon-close" onclick="closeNav()">&#9932;</span>
+						<ul id="nav-menu">
+							<li class="nav-item"><a href="/" class="nav-link">Solutions</a></li>
+							<li class="nav-item"><a href="/" class="nav-link">Company</a></li>
+							<li class="nav-item"><a href="/" class="nav-link">Services</a></li>
+							<li class="nav-item"><a href="/" class="nav-link">Resources</a></li>
+							<li class="nav-item"><a href="/" class="nav-link">Products</a></li>
+							<li class="nav-item"><a href="/" class="nav-link">Support</a></li>
+							<li class="nav-item nav-contact"><a href="/" class="nav-link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			<section id="hero">
+				<h1>Experience the pinnacle of <span class="heading-highlight">resiliance</span> with immutable backups</h1>
+				<a href="/" class="hero-button-primary">Learn more <span class="arrow">&#10140;</span></a>
+				<a href="/" class="hero-button-secondary">Request a demo <span class="arrow">&#10140;</span></a>
+			</section>
+		</div> <!-- header-container end -->
+	</header>
+
+	<main>
+		<section id="content-first">
+			<div id="content-first-container">
+				<div class="section-head">
+					<h2>Making backup storage <span class="heading-highlight">simple</span> and <span class="heading-highlight">secure</span></h2>
+				</div>
+				<div class="section-grid">
+					<div class="simple-image">
+						<div class="grid-image"><img src="./assets/images/simple.jpg" /></div>
+					</div>
+					<div class="simple-text">
+						Say goodbye to the complexity of traditional backup methods and embrace effortless data protection. Our innovative platform ensures you can manage your immutable backups without hours of setup and maintenance. 
+						<a href="/" class="content-button-transparent">Explore simplicity <span class="arrow">&#10140;</span></a>
+					</div>
+				</div>
+				<div class="section-grid">
+					<div class="secure-image">
+						<div class="grid-image"><img src="./assets/images/secure.jpg" /></div>
+					</div>
+					<div class="secure-text">
+						Secure your data with confidence in our state-of-the-art datacenter. Equipped with advanced security measures, including round-the-clock monitoring, we ensure the utmost protection for your valuable information. 
+						<a href="/" class="content-button-transparent">Explore security <span class="arrow">&#10140;</span></a>
+					</div>
+				</div>
+			</div>
+			</section>
+		<section id="content-second">
+			<div id="content-second-container">
+				<h2>Managed <span class="heading-highlight">backups</span> that <span class="heading-highlight">scale</span> with you</h2>
+				<p>
+					In today's fast-paced digital landscape, your data is your most valuable asset. Our managed backup solution is designed to grow alongside your business, ensuring that your data remains secure, accessible, and protected—no matter how much you scale.<br /><br />
+					With our scalable, immutable backup technology, you can rest easy knowing that your data is safeguarded against threats, accidental deletions, and ransomware attacks. Our team of experts handles all aspects of your backup management, allowing you to focus on what you do best—running your business.</p>
+					<h3>Key Features:</h3>
+					<ul>
+						<li><img src="./assets/images/scalable.png" />Scalability: Effortlessly adjust your backup capacity as your data needs evolve, without any disruption to your operations.</li>
+						<li><img src="./assets/images/backup.png" />Backups: Protect your data from unauthorized changes and ensure that your backups remain intact and recoverable.</li>
+						<li><img src="./assets/images/monitoring.png" />24/7 Monitoring and Support: Our dedicated team is always on standby, providing proactive monitoring and support to keep your backups running smoothly.</li>
+						<li><img src="./assets/images/customise.png" />Solutions: Tailor your backup strategy to fit your unique business requirements, ensuring optimal performance and peace of mind.</li>
+					</ul>
+				<p>
+					Experience the freedom of a backup solution that adapts to your growth. With our managed backups, you can confidently embrace the future, knowing your data is in safe hands. Let us help you safeguard your success!
+				</p>
+			</div>
+		</section>
+		<section id="content-third">
+			<div id="content-third-container">
+				<h2>Make your first <span class="heading-highlight">backup</span> in <span class="heading-highlight">minutes.</span></h2>
+				<img src="./assets/images/call-to-action.jpg" />
+				<a href="/" class="content-button-transparent">Get started <span class="arrow">&#10140;</span></a>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div id="footer-container">
+			<hr />
+			<ul id="footer-menu">
+				<li><a href="/">Solutions</a></li>
+				<li><a href="/">Company</a></li>
+				<li><a href="/">Services</a></li>
+				<li><a href="/">Resources</a></li>
+				<li><a href="/">Products</a></li>
+				<li><a href="/">Support</a></li>
+				<li><a href="/">Contact</a></li>
+			</ul>
+			<hr />
+			<ul id="footer-links">
+				<li><a href="/">Privacy policy</a></li>
+				<li><a href="/">Terms of use</a></li>
+				<li><a href="/">Legal</a></li>
+			</ul>
+			<p>
+				&copy; Copyright Peak Storage. All rights reserved.
+			</p>
+		</div>
+	</footer>
+	<script src="components/javascript.js"></script>
+</body>
+</html>
