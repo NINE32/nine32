@@ -125,7 +125,7 @@ h4 {
 }
 
 #copyright {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 /* Classes */
@@ -348,7 +348,7 @@ color: var(--signature-color);
 
     #open-source-message {
         padding: 18% 0 2%;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .call-to-action {
@@ -374,7 +374,7 @@ color: var(--signature-color);
     }
 
     .details {
-        font-size: 2.6rem;
+        font-size: 1.6rem;
     }
 
     .project-end-links, .project-end-links-no-website {
