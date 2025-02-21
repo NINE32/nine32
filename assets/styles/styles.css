@@ -135,6 +135,12 @@ h4 {
 color: var(--signature-color);
 }
 
+.sub-greeting {
+    font-size: 0.5em;
+    display: block;
+    color: var(--tertiary-color);
+}
+
 .highlighted-text-wrapper {
     background: -webkit-linear-gradient(300deg, var(--signature-color), #7802ff);
     -webkit-background-clip: text;
