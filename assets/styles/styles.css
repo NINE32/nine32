@@ -47,6 +47,7 @@ footer {
     bottom: 0;
     height: 100vh;
     width: 100vw;
+    max-width: 1800px;
 }
 
 h2 {
@@ -135,6 +136,14 @@ h4 {
     color: var(--secondary-color);
     background-color: var(--signature-color);
     transition: 0.4s;
+}
+
+#footer-wrapper {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
 }
 
 #copyright {
