@@ -48,6 +48,10 @@ h2 {
     text-decoration-color: var(--signature-color);
 }
 
+h2.homepage-title {
+text-decoration: none;
+}
+
 h3 {
     padding: 5% 0 1%;
     font-size: 1.4rem;
